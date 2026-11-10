@@ -20,6 +20,7 @@ h1{font-size:1.6rem;line-height:1.3;margin:0 0 4px}
 .card h2{font-size:1.1rem;margin:0 0 6px}
 .card p{margin:0 0 10px}
 .btn{display:inline-block;background:var(--btn);color:var(--btnink);text-decoration:none;font-weight:700;border-radius:8px;padding:11px 18px;margin:2px 8px 6px 0}
+.langs{display:flex;flex-wrap:wrap;gap:6px 16px;padding-left:18px;margin:4px 0 0}
 .btn.ghost{background:none;color:var(--ink);border:1px solid var(--line);font-weight:500}
 .btn:focus-visible{outline:3px solid var(--yel);outline-offset:2px}
 .tag{display:inline-block;font-size:.78rem;border:1px solid var(--yel2);color:var(--yel2);border-radius:999px;padding:0 9px;margin-left:6px;vertical-align:2px}
@@ -32,15 +33,15 @@ footer{color:var(--mute);font-size:.82rem;margin-top:22px}
 <div class="stripe"></div>
 <main>
 <h1>フォークリフト誘導訓練　ダウンロード</h1>
-<p class="sub">PC用ファイル（Ver.49）　インストールは必要ありません。ネットにつながらないPCでも使えます。</p>
+<p class="sub">PC用ファイル（Ver.52）　インストールは必要ありません。ネットにつながらないPCでも使えます。</p>
 
 <section class="card">
 <h2>PC用（説明書つき）<span class="tag">おすすめ</span></h2>
 <p>アプリ本体・説明書（PDF）・操作マニュアル（PDF）・ライセンス表記をまとめたZIPファイルです。企業や研修先にお渡しするときもこちらを使います。</p>
-<a class="btn" href="forklift-sim-offline.zip" download="forklift-sim-v49-offline.zip">⬇ ZIPをダウンロード（約1MB）</a>
+<a class="btn" href="forklift-sim-offline.zip" download="forklift-sim-v52-offline.zip">⬇ ZIPをダウンロード（約1.4MB）</a>
 <ol>
 <li>ダウンロードしたZIPを右クリック →「すべて展開」（Macはダブルクリック）</li>
-<li>出てきたフォルダの <b>forklift-sim-v49.html</b> をダブルクリック</li>
+<li>出てきたフォルダの <b>forklift-sim-v52.html</b> をダブルクリック</li>
 <li>ブラウザ（Edge・Chrome・Safari）でタイトル画面が開けば準備完了</li>
 </ol>
 </section>
@@ -48,13 +49,20 @@ footer{color:var(--mute);font-size:.82rem;margin-top:22px}
 <section class="card">
 <h2>PC用（アプリ本体だけ）</h2>
 <p>HTMLファイル1つだけです。USBメモリでそのまま渡したいときに使います。</p>
-<a class="btn ghost" href="forklift-sim-offline.html" download="forklift-sim-v49.html">⬇ HTMLをダウンロード</a>
+<a class="btn ghost" href="forklift-sim-offline.html" download="forklift-sim-v52.html">⬇ HTMLをダウンロード</a>
 </section>
 
 <section class="card">
 <h2>操作マニュアル</h2>
 <p>画面のボタン・キーボード・ゲームコントローラーの操作一覧です。アプリの中でも、タイトル画面や一時停止メニューの「📖 マニュアル」から、ネットなしで見られます。</p>
 <a class="btn ghost" href="forklift-sim-manual.pdf" target="_blank" rel="noopener">📖 操作マニュアル（PDF）を開く</a>
+<p style="margin-top:10px">ほかのことばのマニュアル / Other languages:</p>
+<ul class="langs">
+<li><a href="forklift-sim-manual-en.pdf" target="_blank" rel="noopener">English</a></li>
+<li><a href="forklift-sim-manual-vi.pdf" target="_blank" rel="noopener" lang="vi">Tiếng Việt</a></li>
+<li><a href="forklift-sim-manual-id.pdf" target="_blank" rel="noopener" lang="id">Bahasa Indonesia</a></li>
+<li><a href="forklift-sim-manual-easy.pdf" target="_blank" rel="noopener">やさしい にほんご</a></li>
+</ul>
 </section>
 
 <section class="card">
@@ -67,6 +75,8 @@ footer{color:var(--mute);font-size:.82rem;margin-top:22px}
 <a class="btn ghost" href="./">アプリを開く</a>
 </section>
 
+<p class="note">🔑 ファイル版（ZIP・HTML）は、合同会社アップテックが研修先ごとに発行する<b>ライセンスキー</b>で、決められた期限まで使えます。初めて開いたときにキーを入れます。キーのない方は、上の公開ページ（ネットで開く版）をそのまま無料で使えます。</p>
+<p class="note">🌐 ことば：アプリのタイトル画面右上の「🌐」ボタン、または「設定」→「言語 / Language」で、日本語・English・Tiếng Việt・Bahasa Indonesia・やさしい日本語を選べます。合図のことばは日本語と訳を並べて出します。<br><span lang="en">Language: tap 🌐 on the title screen, or Settings → Language.</span></p>
 <p class="note">ネットにつながらないPCでは、声の合図（音声認識）は使えません。ボタンやキーボードの合図を使ってください。点数や設定は、そのPCのブラウザの中に保存されます。</p>
 <p class="note">このアプリは学習用です。フォークリフトの運転には、技能講習・特別教育の修了が必要です。</p>
 <footer>© 合同会社アップテック</footer>
